@@ -18,18 +18,12 @@ body{
     background: rgba(0,0,0,0);
     margin: 50px 50px 0px 0px;
 }
-#test t1{
-	position: relative;
-    left: 50px;
-    min-height: 140px;
-    background: rgba(0,0,0,0);
-    margin: 50px 50px 0px 0px;
-}
+
 #test:hover{
 	position: relative;
-    left: 50px;
-    min-height: 140px;
+    left: 0px;
+    min-height: 0px;
     background: rgba(0,0,0,0);
-    margin: 50px 50px 0px 0px;
+    margin: 0px 0px 0px 0px;
     color:	#33FF33;
 }

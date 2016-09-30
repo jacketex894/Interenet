@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="./index.css">
     <title>LALALALALALA</title>
 </head>
+
 <body>
 	<div id = "background"></div>
 		<div id = "inside">
