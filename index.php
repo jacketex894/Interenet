@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./te.css">
     <title>LALALALALALA</title>
 </head>
-
 <body>
 	<div id = "background"></div>
+	<div class="cube">
+  <div class="backlayer"></div>
+  <div class="frontlayer"></div>
+  <div class="rightlayer"></div>
+  <div class="leftlayer"></div>
+  <div class="toplayer"></div>
+  <div class="bottomlayer"></div>
+</div>
 		<div id = "inside">
 			<div id = "test">
 			<h1>LALALALA</h1>

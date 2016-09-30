@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cube {
+  position: absolute;
+  top: 5%;
+  left: 90%;
+}
+
+.backlayer {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background: rgba(255, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.frontlayer {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  margin: 25px;
+  background: rgba(255, 193, 7, 0.71);
+}
+
+.rightlayer {
+  position: absolute;
+  left: 15px;
+  top: 13px;
+  width: 198px;
+  height: 100px;
+  border: 1px solid #000;
+  transform: rotateX(-7deg) rotateY(97deg) rotateZ(0deg);
+  background: rgba(3, 169, 244, 0.59);
+}
+
+.leftlayer {
+  position: absolute;
+  left: -87px;
+  top: 11px;
+  width: 197px;
+  height: 102px;
+  border: 1px solid #000;
+  transform: rotateX(-7deg) rotateY(97deg) rotateZ(0deg);
+  background: rgb(0, 188, 212);
+}
+
+.toplayer {
+  position: absolute;
+  left: 11px;
+  top: -38px;
+  width: 104px;
+  height: 100px;
+  border: 1px solid #000;
+  transform: rotateX(76deg) rotateY(4deg) rotateZ(-14deg);
+  background: rgba(139, 195, 74, 0.71);
+}
+
+.bottomlayer {
+  position: absolute;
+  left: 100px;
+  top: 62px;
+  width: 105px;
+  height: 102px;
+  border: 1px solid #000;
+  transform: rotateX(77deg) rotateY(3deg) rotateZ(-14deg);
+  background: rgba(103, 58, 183, 0.23);
+}
+
+.cube {
+  transform: rotate(360deg);
+  animation-name: example1;
+  animation-duration: 4s;
+  transition: 1s linear ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example1 {
+  0% {
+    transform: rotate(0deg)
+  }
+  ;
+  25% {
+    transform: rotate(90deg)
+  }
+  ;
+  50% {
+    transform: rotate(180deg)
+  }
+  ;
+  75% {
+    transform: rotate(270deg)
+  }
+  ;
+  100% {
+    transform: rotate(360deg);
+  }
+  ;
+}
